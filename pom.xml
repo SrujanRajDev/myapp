@@ -10,7 +10,7 @@
     <repository>
       <id>my-repo2</id>
       <name>public</name>
-      <url>http://http://ec2-13-232-160-177.ap-south-1.compute.amazonaws.com:8081/nexus/content/groups/Public_Repository/</url>
+      <url>http://http://ip-172-31-28-185.ap-south-1.compute.internal:8081/nexus/content/groups/Public_Repository/</url>
     </repository> 
     <repository>
       <id>my-repo1</id>
@@ -30,12 +30,12 @@
     <repository>
       <id>myapp-releases</id>
       <name>myapp-releases</name>
-      <url>http://ec2-13-232-160-177.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/myapp-releases/</url>
+      <url>http://ip-172-31-28-185.ap-south-1.compute.internal:8081/nexus/content/repositories/myapp-releases/</url>
     </repository>
     <snapshotRepository>
       <id>myapp-snapshots</id>
       <name>myapp-snapshots</name>
-      <url>http://ec2-13-232-160-177.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/myapp-snapshots/</url>
+      <url>http://ip-172-31-28-185.ap-south-1.compute.internal:8081/nexus/content/repositories/myapp-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 
