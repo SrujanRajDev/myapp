@@ -23,7 +23,7 @@
           <sonar.jdbc.username>sonar</sonar.jdbc.username>
           <sonar.jdbc.password>xxxxx</sonar.jdbc.password>
           <!-- SERVER ON A REMOTE HOST -->
-          <sonar.host.url>http://ec2-13-127-196-89.ap-south-1.compute.amazonaws.com:9000/</sonar.host.url>
+          <sonar.host.url>http://ip-172-31-30-148.ap-south-1.compute.internal:9000/</sonar.host.url>
         </properties>
 </profile>
   </profiles>
