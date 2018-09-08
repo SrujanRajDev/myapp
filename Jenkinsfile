@@ -1,4 +1,4 @@
-<!--node('maven-label')-->
+//node('maven-label')
    node('master'){
    def mvnHome
    stage('Preparation') { // for display purposes
