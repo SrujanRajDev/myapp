@@ -1,8 +1,9 @@
-node('maven-label') {
+<!--node('maven-label')-->
+   node('master'){
    def mvnHome
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
-      git 'https://github.com/quickfixtech/myapp.git'
+      git 'https://github.com/SrujanRajDev/myapp.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
