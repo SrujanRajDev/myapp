@@ -21,11 +21,11 @@
       junit '**/target/surefire-reports/TEST-*.xml'
       archiveArtifacts 'target/*.jar'
    }
-   stage('sonar report') {
+/*   stage('sonar report') {
      if (isUnix()) {
          sh "'${mvnHome}/bin/mvn' sonar:sonar"
       } else {
          bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean package/)
       }
-   }
+   } */
 }
