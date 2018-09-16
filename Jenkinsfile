@@ -7,7 +7,7 @@
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
-      mvnHome = '/usr/bin/mvn'
+      mvnHome = '/usr/.'
    }
    stage('Build') {
       // Run the maven build
