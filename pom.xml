@@ -27,33 +27,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
-<!--   <distributionManagement>
-  
-    <repository> 
-       <id>myrepo-releases</id>
-       <name>myrepo-releases</name>
-       <url>http://ec2-13-233-35-134.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/myrepo-releases/</url>
-     </repository>
-  
-    <snapshotRepository>
-       <id>myrepo-snapshots</id>
-       <name>myrepo-snapshots</name>
-       <url>http://ec2-13-233-35-134.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/myrepo-snapshots/</url>
-    </snapshotRepository>  
  
-  </distributionManagement>
- -->
   <distributionManagement>
     <repository>
       <id>myapp-releases</id>
       <name>myapp-releases</name>
-      <url>http://ec2-13-233-35-134.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/myapp-releases/</url>
+      <url>http://13.127.202.145:8081/nexus/content/repositories/myapp-releases/</url>
     </repository>
     <snapshotRepository>
       <id>myapp-snapshots</id>
       <name>myapp-snapshots</name>
-      <url>http://ec2-13-233-35-134.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/myapp-snapshots/</url>
+      <url>http://13.127.202.145:8081/nexus/content/repositories/myapp-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 
